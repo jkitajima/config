@@ -1,1 +1,20 @@
-/Users/jkt/.config/alacritty/alacritty.toml
+# Alacritty
+# Config file opts: https://alacritty.org/config-alacritty.html
+
+[window]
+position = { x = 900, y = 150 }
+padding = { x = 7, y = 4 }
+decorations = "Buttonless"
+opacity = 0.74
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 14.0
+
+[colors.primary]
+foreground = "#fff1f3"
+background = "#282c34"
+
+[cursor]
+style = { shape = "Underline" }
+
