@@ -9,7 +9,7 @@ opacity = 0.74
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-size = 14.0
+size = 12.0
 
 [colors.primary]
 foreground = "#fff1f3"
