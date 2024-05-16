@@ -4,7 +4,7 @@
 [window]
 position = { x = 900, y = 150 }
 padding = { x = 7, y = 4 }
-decorations = "Buttonless"
+decorations = "None"
 opacity = 0.74
 
 [font]
@@ -17,4 +17,9 @@ background = "#282c34"
 
 [cursor]
 style = { shape = "Underline" }
+
+[keyboard]
+bindings = [
+  { key = "Escape", mods = "Command", action = "ToggleSimpleFullscreen" },
+]
 
