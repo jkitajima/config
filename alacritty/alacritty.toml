@@ -2,18 +2,41 @@
 # Config file opts: https://alacritty.org/config-alacritty.html
 
 [window]
-position = { x = 900, y = 150 }
+dimensions = { columns = 128, lines = 38 }
+position = { x = 300, y = 420 }
 padding = { x = 7, y = 4 }
 decorations = "None"
 opacity = 0.74
+blur = false
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-size = 12.0
+size = 14.25
 
+# Colors (Horizon Dark)
 [colors.primary]
-foreground = "#fff1f3"
-background = "#282c34"
+background = '#1c1e26'
+foreground = '#e0e0e0'
+
+[colors.normal]
+black = '#16161c'
+red = '#e95678'
+green = '#29d398'
+yellow = '#fab795'
+blue = '#26bbd9'
+magenta = '#ee64ac'
+cyan = '#59e1e3'
+white = '#d5d8da'
+
+[colors.bright]
+black = '#5b5858'
+red = '#ec6a88'
+green = '#3fdaa4'
+yellow = '#fbc3a7'
+blue = '#3fc4de'
+magenta = '#f075b5'
+cyan = '#6be4e6'
+white = '#d5d8da'
 
 [cursor]
 style = { shape = "Underline" }
@@ -22,4 +45,3 @@ style = { shape = "Underline" }
 bindings = [
   { key = "Escape", mods = "Command", action = "ToggleSimpleFullscreen" },
 ]
-
