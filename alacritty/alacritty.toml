@@ -4,14 +4,14 @@
 [window]
 dimensions = { columns = 128, lines = 38 }
 position = { x = 300, y = 420 }
-padding = { x = 7, y = 4 }
+padding = { x = 0, y = 0 }
 decorations = "None"
 opacity = 0.74
 blur = false
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-size = 14.25
+size = 17.25
 
 # Colors (Horizon Dark)
 [colors.primary]
