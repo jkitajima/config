@@ -1,0 +1,7 @@
+title = " "
+theme = Sublette
+font-size = 14
+macos-titlebar-style = hidden
+macos-window-shadow = false
+shell-integration-features = no-cursor
+cursor-style = block_hollow
